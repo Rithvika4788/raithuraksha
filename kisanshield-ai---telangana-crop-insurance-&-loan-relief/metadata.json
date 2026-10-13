@@ -1,0 +1,6 @@
+{
+  "name": "KisanShield AI - Telangana Crop Insurance & Loan Relief",
+  "description": "Climate-smart crop damage estimation, evidence-backed insurance claims, loan relief drafting, and auditable bank review for farmers in Telangana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

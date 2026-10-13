@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest: #153E32;
+    --color-sage: #3B7C61;
+    --color-sage-light: #EBF4F0;
+    --color-ivory: #F9F8F3;
+    --color-sand: #EFECE1;
+    --color-amber-accent: #D97706;
+  }
+
+  body {
+    background-color: #F9F8F3;
+    color: #1F2937;
+    font-family: 'Inter', 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Manrope', 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom leaflet tweaks */
+.leaflet-container {
+  font-family: inherit;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
